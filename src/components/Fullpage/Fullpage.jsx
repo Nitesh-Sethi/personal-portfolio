@@ -1,9 +1,15 @@
 import React from "react";
 import "./Fullpage.css";
 import cover from "../../assets/dp.jpg";
+import instagram from "../../assets/instagram.png";
+import facebook from "../../assets/facebook.png";
+import linkedIn from "../../assets/linkedin.png";
+import telegram from "../../assets/telegram.png";
+import github from "../../assets/github.png";
 
 import ReactFullpage from "@fullpage/react-fullpage";
 import SkillByWidth from "../SkillByWidth/SkillByWidth";
+import MediaSymbols from "../MediaSymbols/MediaSymbols";
 
 const Fullpage = () => (
   <ReactFullpage
@@ -12,7 +18,7 @@ const Fullpage = () => (
     scrollingSpeed={1000} // scrolling speed
     navigation={true} // right side dots
     css3={true}
-    navigationTooltips={["Home", "About Me", "Skills"]} // right side dots name
+    navigationTooltips={["Home", "About Me", "Skills", "connect"]} // right side dots name
     autoScrolling={true}
     slidesNavigation={true}
     controlArrows={false}
@@ -59,6 +65,22 @@ const Fullpage = () => (
               <div className="skills--section">
                 <SkillByWidth />
               </div>
+            </div>
+          </div>
+          <div className="section s4">
+            <h1>Let's Be Friends</h1>
+            <div className="social-media-symbols">
+              <MediaSymbols
+                symbol={github}
+                link="https://github.com/Nitesh-Sethi"
+              />
+              <MediaSymbols symbol={instagram} link="!#" />
+              <MediaSymbols symbol={facebook} link="!#" />
+              <MediaSymbols symbol={telegram} link="https://t.me/itsNitesh20" />
+              <MediaSymbols
+                symbol={linkedIn}
+                link="https://www.linkedin.com/in/nitesh-sethi-442006154"
+              />
             </div>
           </div>
         </ReactFullpage.Wrapper>

@@ -1,11 +1,11 @@
 import React from "react";
 import "./SkillByWidth.css";
-import CssLogo from "../../assets/CssLogo96.png";
-import JsLogo from "../../assets/javascript96.png";
-import MongoLogo from "../../assets/mongodb96.png";
-import ExpressLogo from "../../assets/Express-js-min.png";
-import ReactLogo from "../../assets/react480.png";
-import NodeLogo from "../../assets/nodejs96.png";
+import CssLogo from "../../assets/CssLogo.png";
+import JsLogo from "../../assets/javascript.png";
+import MongoLogo from "../../assets/mongodb.png";
+import ExpressLogo from "../../assets/express.png";
+import ReactLogo from "../../assets/react.png";
+import NodeLogo from "../../assets/nodejs.png";
 import Skill from "../Skills/Skill";
 
 function SkillByWidth() {

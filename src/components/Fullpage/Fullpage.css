@@ -93,6 +93,18 @@
   flex-wrap: wrap;
 }
 
+.social-media-symbols {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin: auto;
+}
+
+.s4 h1 {
+  font-size: 3em;
+  margin: 0.4em 0;
+}
+
 @media all and (max-width: 420px) {
   /* s1 section */
   .s1 h1 {

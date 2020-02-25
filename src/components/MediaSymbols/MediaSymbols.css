@@ -1,0 +1,7 @@
+.media {
+  width: 200px;
+}
+.media a img {
+  width: 100%;
+  height: 100%;
+}
