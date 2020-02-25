@@ -1,6 +1,6 @@
 .skill {
   width: 300px;
-  margin: 2em 1em 0;
+  margin: 1.4em 1em 0;
   padding: 0.4em;
   border-radius: 8px;
   display: flex;
@@ -21,8 +21,6 @@
   border-radius: 1em;
   color: #f1f1f1;
   font-size: 14px;
-  text-align: center;
-  /* background-color: blue; */
 }
 
 .skill-code img {
@@ -38,6 +36,10 @@
 .skill-fullname {
   font-size: 1.1em;
   font-weight: 600;
+}
+
+.skill-description {
+  font-size: 1em;
 }
 
 .skill-bar {
@@ -59,14 +61,35 @@
 }
 
 @media all and (max-width: 420px) {
+  .skill:first-child {
+    margin-top: 0;
+  }
   .skill {
     margin: 1em 0 0;
-    width: 290px;
+    width: 280px;
   }
+  .fp-tableCell {
+    height: 480px !important;
+  }
+  .skill-fullname {
+    font-size: 1em;
+  }
+  .skill-description {
+    font-size: 0.9em;
+  }
+}
 
-  /* .fp-tableCell {
-    height: 600px !important;
-  } */
+@media all and (max-width: 390px) {
+  .skill:first-child {
+    margin-top: 0;
+  }
+  .skill {
+    margin: 1em 0 0;
+    width: 265px;
+  }
+  .fp-tableCell {
+    height: 440px !important;
+  }
   .skill-fullname {
     font-size: 1em;
   }
@@ -76,8 +99,11 @@
 }
 
 @media all and (max-width: 360px) {
+  .skill:first-child {
+    margin-top: 0;
+  }
   .skill {
-    margin: 1.2em 0 0;
+    margin: 1em 0 0;
     width: 250px;
   }
   .skill-fullname {
@@ -86,17 +112,7 @@
   .skill-description {
     font-size: 0.9em;
   }
-}
-
-@media all and (max-width: 320px) {
-  .skill {
-    margin: 1em 0 0;
-    width: 220px;
-  }
-  .skill-fullname {
-    font-size: 0.9em;
-  }
-  .skill-description {
-    font-size: 0.8em;
+  .fp-tableCell {
+    height: 400px !important;
   }
 }

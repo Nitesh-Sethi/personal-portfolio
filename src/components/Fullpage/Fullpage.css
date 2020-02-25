@@ -51,7 +51,7 @@
   max-width: 100%;
   max-height: 100%;
   border-radius: 50%;
-  box-shadow: 16px 16px 32px #101010, -16px -16px 32px #feffee;
+  box-shadow: 8px 8px 20px 4px #101010;
 }
 
 .description .inner-heading {
@@ -81,26 +81,32 @@
   justify-content: space-between;
 }
 
+.innerContent--skills .wrapper p {
+  text-align: left;
+  font-size: 1.4em;
+  padding: 1em;
+}
+
 .skills--section {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   flex-wrap: wrap;
 }
 
 @media all and (max-width: 420px) {
   /* s1 section */
   .s1 h1 {
-    font-size: 2.4em;
+    font-size: 2.8em;
   }
   .s1 h2 {
-    font-size: 1.2em;
+    font-size: 1.4em;
     width: 60%;
     margin: auto;
   }
 
   /* s2 section */
   .s2 .innerContent h1 {
-    font-size: 1.6em;
+    font-size: 2em;
     margin-top: 0;
   }
 
@@ -109,13 +115,8 @@
     height: 130px;
   }
 
-  .s2 .innerContent .description {
-    overflow: scroll;
-    padding-bottom: 1em;
-  }
-
   .s2 .innerContent .description .inner-heading {
-    font-size: 1.5em;
+    font-size: 1.6em;
     margin-bottom: 0;
   }
 
@@ -130,13 +131,62 @@
   }
 
   .s3 .innerContent--skills h1 {
-    font-size: 2.2em;
+    font-size: 2em;
     margin-bottom: 0;
   }
 
   .s3 .innerContent--skills {
-    /* height: auto; */
     padding: 0;
+  }
+  .s3 .innerContent--skills .wrapper p {
+    font-size: 1.1em;
+    margin: 0;
+  }
+}
+
+@media all and (max-width: 390px) {
+  /* s1 section */
+  .s1 h1 {
+    font-size: 2.8em;
+  }
+  .s1 h2 {
+    font-size: 1.4em;
+    width: 60%;
+    margin: auto;
+  }
+
+  /* s2 section */
+  .s2 .innerContent h1 {
+    font-size: 2em;
+    margin-top: 0;
+  }
+  .s2 .innerContent .imageContainer {
+    width: 130px;
+    height: 130px;
+  }
+  .s2 .innerContent .description .inner-heading {
+    font-size: 1.4em;
+    margin-bottom: 0;
+  }
+  .s2 .innerContent .description .para {
+    font-size: 0.9em;
+    text-align: justify;
+    margin-top: 0.2em;
+    margin-bottom: 0.4em;
+  }
+  .s2 .innerContent .description .para:last-child {
+    margin-bottom: 1em;
+  }
+  .s3 .innerContent--skills h1 {
+    font-size: 2em;
+    margin-bottom: 0;
+  }
+  .s3 .innerContent--skills {
+    padding: 0;
+  }
+  .s3 .innerContent--skills .wrapper p {
+    font-size: 1.1em;
+    margin: 0;
   }
 }
 
@@ -153,26 +203,18 @@
 
   /* s2 section */
   .s2 .innerContent h1 {
-    font-size: 1.6em;
+    font-size: 2em;
+    margin-bottom: 0.2em;
   }
-
   .s2 .innerContent .imageContainer {
-    width: 130px;
-    height: 130px;
+    width: 115px;
+    height: 115px;
   }
-
-  .s2 .innerContent .description {
-    overflow: scroll;
-    padding-bottom: 1em;
-  }
-
   .s2 .innerContent .description .inner-heading {
-    font-size: 1.5em;
-    margin-bottom: 0em;
+    font-size: 1.3em;
   }
-
   .s2 .innerContent .description .para {
-    font-size: 1em;
+    font-size: 0.9em;
     text-align: justify;
     margin-top: 0.2em;
     margin-bottom: 0.4em;
@@ -180,13 +222,15 @@
   .s2 .innerContent .description .para:last-child {
     margin-bottom: 1em;
   }
-
   .s3 .innerContent--skills h1 {
-    font-size: 1.6em;
+    font-size: 2em;
     margin-bottom: 0;
   }
-
   .s3 .innerContent--skills {
     height: auto;
+  }
+  .s3 .innerContent--skills .wrapper p {
+    font-size: 1.1em;
+    margin: 0;
   }
 }

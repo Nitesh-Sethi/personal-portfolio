@@ -1,6 +1,6 @@
 import React from "react";
 import "./App.css";
-import Page from "./components/Fullpage/Fullpage.component";
+import Page from "./components/Fullpage/Fullpage";
 
 function App() {
   return (

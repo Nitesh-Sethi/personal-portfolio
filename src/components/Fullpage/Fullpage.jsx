@@ -1,9 +1,9 @@
 import React from "react";
-import "./Fullpage.component.css";
+import "./Fullpage.css";
 import cover from "../../assets/dp.jpg";
 
 import ReactFullpage from "@fullpage/react-fullpage";
-import SkillByWidth from "../SkillByWidth/SkillByWidth.component";
+import SkillByWidth from "../SkillByWidth/SkillByWidth";
 
 const Fullpage = () => (
   <ReactFullpage
@@ -52,7 +52,10 @@ const Fullpage = () => (
           </div>
           <div className="section s3">
             <div className="innerContent innerContent--skills">
-              <h1>Skills & Services</h1>
+              <div className="wrapper">
+                <h1>Skills & Services</h1>
+                <p>Here are some of my skills that I've learned so far ...</p>
+              </div>
               <div className="skills--section">
                 <SkillByWidth />
               </div>

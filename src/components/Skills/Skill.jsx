@@ -1,5 +1,5 @@
 import React from "react";
-import "./Skill.component.css";
+import "./Skill.css";
 
 function Button(props) {
   return (
