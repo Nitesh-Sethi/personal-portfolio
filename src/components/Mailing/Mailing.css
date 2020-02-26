@@ -12,11 +12,13 @@
   font-size: 2.6em;
 }
 
-.email-area a {
+.email-area button {
   background-color: lightblue;
   text-decoration: none;
   padding: 0.5em 2em;
+  border: none;
   border-radius: 50px;
+  outline: none;
   font-size: 1.3em;
   color: #000;
 }
@@ -32,7 +34,7 @@
     font-size: 1.3em;
     margin-bottom: 1em;
   }
-  .email-area a {
+  .email-area button {
     padding: 0.4em 1.5em;
   }
 }
@@ -47,7 +49,7 @@
     font-size: 1.2em;
     margin-bottom: 1em;
   }
-  .email-area a {
+  .email-area button {
     padding: 0.4em 1.4em;
   }
 }
@@ -62,7 +64,7 @@
     font-size: 1.2em;
     margin-bottom: 1em;
   }
-  .email-area a {
+  .email-area button {
     padding: 0.4em 1.4em;
   }
 }
