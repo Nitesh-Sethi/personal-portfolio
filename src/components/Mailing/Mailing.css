@@ -23,7 +23,7 @@
 
 @media all and (max-width: 420px) {
   .email-area {
-    display: block !important;
+    display: block;
     padding: 1em auto;
     justify-content: unset;
     align-items: unset;
@@ -34,11 +34,12 @@
   }
   .email-area a {
     padding: 0.4em 1.5em;
+    display: block;
   }
 }
 @media all and (max-width: 390px) {
   .email-area {
-    display: block !important;
+    display: block;
     padding: 1em auto;
     justify-content: unset;
     align-items: unset;
@@ -47,13 +48,14 @@
     font-size: 1.2em;
     margin-bottom: 1em;
   }
-  .email-area a {
+  .email-area button {
     padding: 0.4em 1.4em;
+    display: block;
   }
 }
 @media all and (max-width: 360px) {
   .email-area {
-    display: block !important;
+    display: block;
     padding: 1em auto;
     justify-content: unset;
     align-items: unset;
@@ -62,7 +64,8 @@
     font-size: 1.2em;
     margin-bottom: 1em;
   }
-  .email-area a {
+  .email-area button {
     padding: 0.4em 1.4em;
+    display: block;
   }
 }

@@ -25,11 +25,13 @@ footer {
 @media all and (max-width: 420px) {
   .footer-flex {
     display: block;
+    padding: 1em 1em 3em;
   }
 }
 @media all and (max-width: 360px) {
   .footer-flex {
     display: block;
+    padding: 1em 1em 3em;
   }
   .footer-flex p {
     font-size: 1.1em;
