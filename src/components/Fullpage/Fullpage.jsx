@@ -20,7 +20,7 @@ const Fullpage = () => (
     scrollingSpeed={1000} // scrolling speed
     navigation={true} // right side dots
     css3={true}
-    navigationTooltips={["Home", "About Me", "Skills", "connect"]} // right side dots name
+    navigationTooltips={["Home", "About Me", "Skills", "Connect", "Contact"]} // right side dots name
     autoScrolling={true}
     slidesNavigation={true}
     controlArrows={false}
