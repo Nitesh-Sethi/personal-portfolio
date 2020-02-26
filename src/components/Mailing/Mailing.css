@@ -34,7 +34,7 @@
     font-size: 1.3em;
     margin-bottom: 1em;
   }
-  .email-area button {
+  .email-area a {
     padding: 0.4em 1.5em;
     display: block;
   }
@@ -50,7 +50,7 @@
     font-size: 1.2em;
     margin-bottom: 1em;
   }
-  .email-area button {
+  .email-area a {
     padding: 0.4em 1.4em;
     display: block;
   }
@@ -66,7 +66,7 @@
     font-size: 1.2em;
     margin-bottom: 1em;
   }
-  .email-area button {
+  .email-area a {
     padding: 0.4em 1.4em;
     display: block;
   }
