@@ -42,8 +42,8 @@
 }
 
 .imageContainer {
-  width: 220px;
-  height: 220px;
+  width: 200px;
+  height: 200px;
   margin: auto;
 }
 
@@ -72,6 +72,10 @@
 
 #fp-nav ul li a span {
   background: #000 !important;
+}
+
+#fp-nav ul li .fp-right {
+  color: #000 !important;
 }
 
 .innerContent--skills {
@@ -108,6 +112,28 @@
 .innerContent--social h1 {
   font-size: 3em;
   margin: 0.4em 0;
+}
+
+.innerContent--contact-footer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+}
+
+.innerContent--contact {
+  width: 80%;
+  margin: 2em auto 0;
+}
+
+.contact-mailing {
+  padding-top: 1em;
+  width: auto;
+}
+
+.innerContent--footer {
+  width: 100%;
 }
 
 @media all and (max-width: 420px) {
@@ -165,6 +191,9 @@
   .social-media-symbols {
     flex-wrap: wrap;
     justify-content: space-around;
+  }
+  .innerContent--contact h1 {
+    font-size: 2em;
   }
 }
 
