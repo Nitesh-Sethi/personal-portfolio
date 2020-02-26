@@ -74,6 +74,10 @@
   background: #000 !important;
 }
 
+#fp-nav ul li .fp-right {
+  color: #000 !important;
+}
+
 .innerContent--skills {
   display: flex;
   height: 80vh;
