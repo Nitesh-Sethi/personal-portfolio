@@ -6,7 +6,7 @@ function Mailing() {
     <React.Fragment>
       <div className="email-area">
         <h1>dxtrn.umf.2017@gmail.com</h1>
-        <a href="mailto:dxtrn.umf.2017@gmail.com">Send Mail</a>
+        <button href="mailto:dxtrn.umf.2017@gmail.com">Send Mail</button>
       </div>
     </React.Fragment>
   );
