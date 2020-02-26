@@ -19,7 +19,7 @@ footer {
   justify-content: space-between;
   width: 80%;
   margin: auto;
-  padding: 1em;
+  padding: 1em 1em 2em;
 }
 
 @media all and (max-width: 420px) {
