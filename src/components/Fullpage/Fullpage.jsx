@@ -10,6 +10,8 @@ import github from "../../assets/github.png";
 import ReactFullpage from "@fullpage/react-fullpage";
 import SkillByWidth from "../SkillByWidth/SkillByWidth";
 import MediaSymbols from "../MediaSymbols/MediaSymbols";
+import Mailing from "../Mailing/Mailing";
+import Footer from "../Footer/Footer";
 
 const Fullpage = () => (
   <ReactFullpage
@@ -18,7 +20,7 @@ const Fullpage = () => (
     scrollingSpeed={1000} // scrolling speed
     navigation={true} // right side dots
     css3={true}
-    navigationTooltips={["Home", "About Me", "Skills", "connect"]} // right side dots name
+    navigationTooltips={["Home", "About Me", "Skills", "Connect", "Contact"]} // right side dots name
     autoScrolling={true}
     slidesNavigation={true}
     controlArrows={false}
@@ -69,7 +71,7 @@ const Fullpage = () => (
           </div>
           <div className="section s4">
             <div className="innerContent innerContent--social">
-              <h1>Get in Touch</h1>
+              <h1>Let's Be Friends</h1>
               <div className="social-media-symbols">
                 <MediaSymbols
                   symbol={github}
@@ -85,6 +87,19 @@ const Fullpage = () => (
                   symbol={linkedIn}
                   link="https://www.linkedin.com/in/nitesh-sethi-442006154"
                 />
+              </div>
+            </div>
+          </div>
+          <div className="section s5">
+            <div className="innerContent innerContent--contact-footer">
+              <div className="innerContent--contact">
+                <h1>Get in Touch</h1>
+                <div className="contact-mailing">
+                  <Mailing />
+                </div>
+              </div>
+              <div className="innerContent--footer">
+                <Footer />
               </div>
             </div>
           </div>
