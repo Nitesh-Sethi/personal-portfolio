@@ -5,3 +5,21 @@
   width: 100%;
   height: 100%;
 }
+
+@media all and (max-width: 420px) {
+  .media {
+    width: 150px;
+  }
+}
+
+@media all and (max-width: 390px) {
+  .media {
+    width: 145px;
+  }
+}
+
+@media all and (max-width: 360px) {
+  .media {
+    width: 140px;
+  }
+}

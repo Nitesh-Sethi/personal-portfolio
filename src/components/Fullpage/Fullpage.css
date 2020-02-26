@@ -96,11 +96,16 @@
 .social-media-symbols {
   display: flex;
   justify-content: space-between;
-  width: 80%;
-  margin: auto;
 }
 
-.s4 h1 {
+.innerContent--social {
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.innerContent--social h1 {
   font-size: 3em;
   margin: 0.4em 0;
 }
@@ -154,6 +159,13 @@
     font-size: 1.1em;
     margin: 0;
   }
+  .s4 .innerContent--social h1 {
+    font-size: 2em;
+  }
+  .social-media-symbols {
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
 }
 
 @media all and (max-width: 390px) {
@@ -200,6 +212,13 @@
     font-size: 1.1em;
     margin: 0;
   }
+  .s4 .innerContent--social h1 {
+    font-size: 2em;
+  }
+  .social-media-symbols {
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
 }
 
 @media all and (max-width: 360px) {
@@ -244,5 +263,12 @@
   .s3 .innerContent--skills .wrapper p {
     font-size: 1.1em;
     margin: 0;
+  }
+  .s4 .innerContent--social h1 {
+    font-size: 2em;
+  }
+  .social-media-symbols {
+    flex-wrap: wrap;
+    justify-content: space-around;
   }
 }

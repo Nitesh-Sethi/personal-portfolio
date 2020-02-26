@@ -68,19 +68,24 @@ const Fullpage = () => (
             </div>
           </div>
           <div className="section s4">
-            <h1>Let's Be Friends</h1>
-            <div className="social-media-symbols">
-              <MediaSymbols
-                symbol={github}
-                link="https://github.com/Nitesh-Sethi"
-              />
-              <MediaSymbols symbol={instagram} link="!#" />
-              <MediaSymbols symbol={facebook} link="!#" />
-              <MediaSymbols symbol={telegram} link="https://t.me/itsNitesh20" />
-              <MediaSymbols
-                symbol={linkedIn}
-                link="https://www.linkedin.com/in/nitesh-sethi-442006154"
-              />
+            <div className="innerContent innerContent--social">
+              <h1>Get in Touch</h1>
+              <div className="social-media-symbols">
+                <MediaSymbols
+                  symbol={github}
+                  link="https://github.com/Nitesh-Sethi"
+                />
+                <MediaSymbols symbol={instagram} link="!#" />
+                <MediaSymbols symbol={facebook} link="!#" />
+                <MediaSymbols
+                  symbol={telegram}
+                  link="https://t.me/itsNitesh20"
+                />
+                <MediaSymbols
+                  symbol={linkedIn}
+                  link="https://www.linkedin.com/in/nitesh-sethi-442006154"
+                />
+              </div>
             </div>
           </div>
         </ReactFullpage.Wrapper>
