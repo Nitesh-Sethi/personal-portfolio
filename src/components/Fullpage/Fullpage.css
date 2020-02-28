@@ -51,7 +51,7 @@
   max-width: 100%;
   max-height: 100%;
   border-radius: 50%;
-  box-shadow: 8px 8px 20px 4px #101010;
+  box-shadow: 6px 6px 20px 4px #101010;
 }
 
 .description .inner-heading {
@@ -80,7 +80,6 @@
 
 .innerContent--skills {
   display: flex;
-  height: 80vh;
   flex-direction: column;
   justify-content: space-between;
 }
@@ -89,6 +88,7 @@
   text-align: left;
   font-size: 1.4em;
   padding: 1em;
+  margin: 0;
 }
 
 .skills--section {
@@ -103,7 +103,6 @@
 }
 
 .innerContent--social {
-  height: 80vh;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -114,17 +113,25 @@
   margin: 0.4em 0;
 }
 
+/* to make footer stick to bottom */
+.s5 .fp-tableCell {
+  vertical-align: bottom !important;
+}
+
 .innerContent--contact-footer {
   width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height: 100vh;
+  height: 70vh;
 }
 
 .innerContent--contact {
   width: 80%;
-  margin: 2em auto 0;
+  margin: 2em auto;
+}
+.innerContent--contact h1 {
+  margin: 0;
 }
 
 .contact-mailing {
@@ -139,17 +146,17 @@
 @media all and (max-width: 420px) {
   /* s1 section */
   .s1 h1 {
-    font-size: 2.8em;
+    font-size: 3em;
   }
   .s1 h2 {
-    font-size: 1.4em;
+    font-size: 1.5em;
     width: 60%;
     margin: auto;
   }
 
   /* s2 section */
   .s2 .innerContent h1 {
-    font-size: 2em;
+    font-size: 2.4em;
     margin-top: 0;
   }
 
@@ -173,27 +180,33 @@
     margin-bottom: 1em;
   }
 
-  .s3 .innerContent--skills h1 {
-    font-size: 2em;
-    margin-bottom: 0;
+  .s3 {
+    display: flex;
+    align-items: stretch;
   }
 
   .s3 .innerContent--skills {
     padding: 0;
   }
-  .s3 .innerContent--skills .wrapper p {
-    font-size: 1.1em;
+  .s3 .innerContent--skills .wrapper h1 {
+    font-size: 2.4em;
     margin: 0;
   }
+  .s3 .innerContent--skills .wrapper p {
+    font-size: 1.1em;
+  }
   .s4 .innerContent--social h1 {
-    font-size: 2em;
+    font-size: 2.4em;
   }
   .social-media-symbols {
     flex-wrap: wrap;
     justify-content: space-around;
   }
+  .innerContent--contact-footer {
+    height: 80vh;
+  }
   .innerContent--contact h1 {
-    font-size: 2em;
+    font-size: 2.4em;
   }
 }
 
@@ -210,7 +223,7 @@
 
   /* s2 section */
   .s2 .innerContent h1 {
-    font-size: 2em;
+    font-size: 2.2em;
     margin-top: 0;
   }
   .s2 .innerContent .imageContainer {
@@ -230,9 +243,9 @@
   .s2 .innerContent .description .para:last-child {
     margin-bottom: 1em;
   }
-  .s3 .innerContent--skills h1 {
-    font-size: 2em;
-    margin-bottom: 0;
+  .s3 .innerContent--skills .wrapper h1 {
+    font-size: 2.2em;
+    margin: 0;
   }
   .s3 .innerContent--skills {
     padding: 0;
@@ -242,21 +255,27 @@
     margin: 0;
   }
   .s4 .innerContent--social h1 {
-    font-size: 2em;
+    font-size: 2.2em;
   }
   .social-media-symbols {
     flex-wrap: wrap;
     justify-content: space-around;
+  }
+  .innerContent--contact-footer {
+    height: 85vh;
+  }
+  .innerContent--contact h1 {
+    font-size: 2.2em;
   }
 }
 
 @media all and (max-width: 360px) {
   /* s1 section */
   .s1 h1 {
-    font-size: 2.4em;
+    font-size: 2.6em;
   }
   .s1 h2 {
-    font-size: 1.2em;
+    font-size: 1.3em;
     width: 60%;
     margin: auto;
   }
@@ -293,11 +312,21 @@
     font-size: 1.1em;
     margin: 0;
   }
+  .s3 .innerContent--skills .wrapper h1 {
+    font-size: 2em;
+    margin: 0;
+  }
   .s4 .innerContent--social h1 {
     font-size: 2em;
   }
   .social-media-symbols {
     flex-wrap: wrap;
     justify-content: space-around;
+  }
+  .innerContent--contact-footer {
+    height: 85vh;
+  }
+  .innerContent--contact h1 {
+    font-size: 2em;
   }
 }

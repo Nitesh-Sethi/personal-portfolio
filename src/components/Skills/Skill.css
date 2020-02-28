@@ -17,10 +17,6 @@
 .skill-code {
   width: 50px;
   height: 50px;
-  padding-top: 5px;
-  border-radius: 1em;
-  color: #f1f1f1;
-  font-size: 14px;
 }
 
 .skill-code img {
@@ -69,7 +65,7 @@
     width: 280px;
   }
   .fp-tableCell {
-    height: 480px !important;
+    height: auto !important;
   }
   .skill-fullname {
     font-size: 1em;
@@ -88,7 +84,7 @@
     width: 265px;
   }
   .fp-tableCell {
-    height: 440px !important;
+    height: auto !important;
   }
   .skill-fullname {
     font-size: 1em;
@@ -113,6 +109,6 @@
     font-size: 0.9em;
   }
   .fp-tableCell {
-    height: 400px !important;
+    height: auto !important;
   }
 }

@@ -1,5 +1,5 @@
 footer {
-  background-color: black;
+  background-color: rgba(0, 0, 0, 0.95);
 }
 
 .footer-flex p {
@@ -25,13 +25,13 @@ footer {
 @media all and (max-width: 420px) {
   .footer-flex {
     display: block;
-    padding: 1em 1em 3em;
+    padding: 1em;
   }
 }
 @media all and (max-width: 360px) {
   .footer-flex {
     display: block;
-    padding: 1em 1em 3em;
+    padding: 1em;
   }
   .footer-flex p {
     font-size: 1.1em;

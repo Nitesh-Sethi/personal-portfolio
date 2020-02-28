@@ -12,12 +12,6 @@ function Footer() {
           </p>
           <p>&copy; Nitesh Sethi 2020. All rights Reserved.</p>
         </div>
-        {/* <div className="footer-flex">
-          <p>
-            Thanks to <a href="https://icons8.com/">Icons8</a> for providing
-            Icons.
-          </p>
-        </div> */}
       </footer>
     </React.Fragment>
   );
