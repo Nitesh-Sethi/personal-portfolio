@@ -16,42 +16,42 @@ function SkillByWidth() {
           <Skill
             code={CssLogo}
             fname="HTML5 &amp; CSS3"
-            description="I'm highly skilled about this."
+            description=""
             percentage="90%"
             style={{ width: "90%" }}
           />
           <Skill
             code={JsLogo}
             fname="JavaScript"
-            description="I'm highly skilled about this."
+            description=""
             percentage="70%"
             style={{ width: "70%" }}
           />
           <Skill
             code={NodeLogo}
             fname="Node.js"
-            description="I'm highly skilled about this."
+            description=""
             percentage="50%"
             style={{ width: "50%" }}
           />
           <Skill
             code={ExpressLogo}
             fname="Express.js"
-            description="I'm highly skilled about this."
+            description=""
             percentage="70%"
             style={{ width: "70%" }}
           />
           <Skill
             code={ReactLogo}
             fname="React.js"
-            description="Undoubtfully, I'm new in React"
+            description=""
             percentage="50%"
             style={{ width: "50%" }}
           />
           <Skill
             code={MongoLogo}
             fname="MongoDB"
-            description="Somewhere familiar with mongoDb."
+            description=""
             percentage="50%"
             style={{ width: "50%" }}
           />
@@ -62,21 +62,21 @@ function SkillByWidth() {
             <Skill
               code={CssLogo}
               fname="HTML5 &amp; CSS3"
-              description="I'm highly skilled about this."
+              description=""
               percentage="90%"
               style={{ width: "90%" }}
             />
             <Skill
               code={JsLogo}
               fname="JavaScript"
-              description="I'm highly skilled about this."
+              description=""
               percentage="70%"
               style={{ width: "70%" }}
             />
             <Skill
               code={NodeLogo}
               fname="Node.js"
-              description="I'm highly skilled about this."
+              description=""
               percentage="50%"
               style={{ width: "50%" }}
             />
@@ -85,21 +85,21 @@ function SkillByWidth() {
             <Skill
               code={ExpressLogo}
               fname="Express.js"
-              description="I'm highly skilled about this."
+              description=""
               percentage="70%"
               style={{ width: "70%" }}
             />
             <Skill
               code={ReactLogo}
               fname="React.js"
-              description="Undoubtfully, I'm new in React"
+              description=""
               percentage="50%"
               style={{ width: "50%" }}
             />
             <Skill
               code={MongoLogo}
               fname="MongoDB"
-              description="Somewhere familiar with mongoDb."
+              description=""
               percentage="50%"
               style={{ width: "50%" }}
             />

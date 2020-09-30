@@ -41,19 +41,17 @@ const Fullpage = () => (
                 <p className="inner-heading">Hey there,</p>
                 <p className="para">
                   This is Nitesh Sethi from New Delhi, India. I'm a Web
-                  Developer and designer who develops web applications. I have
-                  completed my 3 years of Diploma in{" "}
+                  Developer and designer who develops web applications. I
+                  persued my 3 years of Diploma in{" "}
                   <b>Computer Science Engineering</b> from{" "}
                   <b>Ambedkar Institute of Technology</b> (a.k.a Ambedkar
                   Polytechnic) in July 2019.
                 </p>
                 <p className="para">
-                  I started learning <b>Html</b> in my early school days. After
-                  that during college, I started putting my hands on{" "}
-                  <b>Cascading Style sheets</b> and <b>Javascript</b>. I have a
-                  fairly good grip in Cascading style sheets. Nowadays, I'm
-                  learning Adobe XD as a part of designing to know more about{" "}
-                  <b>UI/UX</b> and <b>React.js</b> framework.
+                  I started learning HTML in my early days. After that during
+                  college, I started putting my hands on Cascading Style sheets.
+                  I was blown by it's potential. Apart from HTML &amp; CSS, I
+                  started polishing my hands on Node.js &amp; React.js.
                 </p>
               </div>
             </div>
@@ -61,8 +59,7 @@ const Fullpage = () => (
           <div className="section s3">
             <div className="innerContent innerContent--skills">
               <div className="wrapper">
-                <h1>Skills & Services</h1>
-                <p>Here are some of my skills that I've learned so far ...</p>
+                <h1>Skills &amp; Services</h1>
               </div>
               <div className="skills--section">
                 <SkillByWidth />
@@ -75,7 +72,7 @@ const Fullpage = () => (
               <div className="social-media-symbols">
                 <MediaSymbols
                   symbol={github}
-                  link="https://github.com/Nitesh-Sethi"
+                  link="https://github.com/itssethi"
                 />
                 <MediaSymbols symbol={instagram} link="!#" />
                 <MediaSymbols symbol={facebook} link="!#" />
